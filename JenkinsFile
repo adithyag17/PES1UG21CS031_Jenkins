@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Clone the Git repository
-                    sh 'rm -rf PES1UG21CS002_Jenkins'
+                    sh 'rm -rf PES1UG21CS031_Jenkins'
                     sh 'git clone https://github.com/adithyag17/PES1UG21CS031_Jenkins.git'
                 }
             }
